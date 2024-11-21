@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  font-family: var(--main-font);
+}
+
 :root {
   --main-color: #D56B2A;
   --second-color: #26547C;
@@ -12,7 +16,8 @@
   --text-color: #111111;
   --bg-color: #FFF4DB;
 
-  --main-font: 'Poppins', sans-serif;
+  --main-font: 'Roboto Slab', serif;
+  --second-font: 'Libre Baskerville', serif;
 }
 
 a {
