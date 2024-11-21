@@ -1,0 +1,16 @@
+@import url('./header.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #D56B2A;
+  --second-color: #26547C;
+  --third-color: #FFD166;
+  --text-color: #111111;
+  --bg-color: #FFF4DB;
+
+  --main-font: 'Poppins', sans-serif;
+}
