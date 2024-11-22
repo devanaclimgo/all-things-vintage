@@ -2,10 +2,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#logo {
+  margin-left: 2rem;
 }
 
 .header-links {
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 
 .header-links a {
