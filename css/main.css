@@ -28,3 +28,9 @@
   margin-left: 30px;
   padding-left: 0.8rem;
 }
+
+.intro-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
