@@ -6,4 +6,19 @@
 
 .intro-text {
   padding-left: 2rem;
+  position: relative;
+}
+
+.intro-text::before {
+  content: '';
+  position: absolute;
+  background-image: url('../img/small-logo.png');
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  display: block;
+  margin-right: 5px;
+  top: -5%;
+  left: 4%;
+  border-right: solid 2px gainsboro;
 }
