@@ -41,6 +41,7 @@
   padding-top: 0.5rem;
   padding-left: 0.3rem;
   font-family: var(--second-font);
+  color: var(--subtext-color);
 }
 
 .btn.shop-now {
