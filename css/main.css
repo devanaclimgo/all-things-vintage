@@ -6,22 +6,11 @@
 
 .intro-text {
   padding-left: 2rem;
-  position: relative;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.intro-text::before {
-  content: '';
-  position: absolute;
-  background-image: url('../img/small-logo.png');
-  background-size: contain;
-  width: 52px;
-  height: 52px;
-  display: block;
-  margin-right: 5px;
-  top: -3%;
-  left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .intro-text h4 {
@@ -31,7 +20,22 @@
   font-size: 20px;
   font-weight: 300;
   padding-top: 0.3rem;
+  position: relative;
 }
+
+.intro-text h4::before {
+  content: '';
+  position: absolute;
+  background-image: url('../img/small-logo.png');
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  display: block;
+  margin-right: 5px;
+  top: -30%;
+  left: -10%;
+}
+
 
 .intro-text p {
   max-width: 97ch;
