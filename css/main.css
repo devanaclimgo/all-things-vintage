@@ -36,12 +36,22 @@
   left: -10%;
 }
 
-
 .intro-text p {
   max-width: 97ch;
   padding-top: 0.5rem;
   padding-left: 0.3rem;
   font-family: var(--second-font);
+}
+
+.btn.shop-now {
+  padding: 0.7rem 1rem;
+  margin-top: 3rem;
+  background: var(--btn-gradient);
+  display: block;
+  max-width: fit-content;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 4px;
 }
 
 .intro-img img {
