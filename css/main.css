@@ -37,6 +37,7 @@
   max-width: 97ch;
   padding-top: 0.5rem;
   padding-left: 0.3rem;
+  font-family: var(--second-font);
 }
 
 .intro-img img {
