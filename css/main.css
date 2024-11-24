@@ -15,8 +15,9 @@
 
 .intro-text h4 {
   border-left: solid 2px gainsboro;
-  margin-left: 30px;
-  padding-left: 0.8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-left: 0.5rem;
   font-size: 24px;
   font-weight: 500;
   padding-top: 0.3rem;
@@ -28,8 +29,8 @@
   position: absolute;
   background-image: url('../img/small-logo.png');
   background-size: contain;
-  width: 52px;
-  height: 52px;
+  width: 49px;
+  height: 49px;
   display: block;
   margin-right: 5px;
   top: -30%;
@@ -60,4 +61,34 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .intro-text h4::before {
+    width: 35px;
+    height: 35px;
+    top: -5%;
+  }
+}
+
+@media (max-width: 930px) {
+  .intro-text h4::before {
+    left: -14%;
+  }
+}
+
+@media (max-width: 860px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro-text {
+    padding-right: 3rem;
+  }
+  .intro-text h4::before {
+    left: -8%;
+  }
+  .intro-img img {
+    height: 300px;
+    width: 100%;
+  }
 }
