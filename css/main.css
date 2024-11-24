@@ -16,7 +16,6 @@
 .intro-text h4 {
   border-left: solid 2px gainsboro;
   margin-left: 3rem;
-  margin-right: 3rem;
   padding-left: 0.5rem;
   font-size: 24px;
   font-weight: 500;
@@ -90,5 +89,17 @@
   .intro-img img {
     height: 300px;
     width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro-text h4::before {
+    left: -12%;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro-text h4::before {
+    left: -19%;
   }
 }
