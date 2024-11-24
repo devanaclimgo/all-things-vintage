@@ -16,3 +16,15 @@ header {
 .header-links a {
   margin-right: 1.5rem;
 }
+
+@media (max-width: 400px) {
+  #logo {
+    margin-left: 13px;
+    width: 80px;
+    height: 70px;
+  }
+  .header-links a {
+    font-size: 12px;
+    margin-right: 12px;
+  }
+}
