@@ -26,7 +26,7 @@
 .intro-text h4::before {
   content: '';
   position: absolute;
-  background-image: url('../img/small-logo.png');
+  background-image: url('../../img/small-logo.png');
   background-size: contain;
   width: 49px;
   height: 49px;
