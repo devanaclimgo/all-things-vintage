@@ -11,14 +11,14 @@ body {
 }
 
 :root {
-  --main-color: #D56B2A;
+  --main-color: #A2BDAA;
   --second-color: #26547C;
   --third-color: #FFD166;
   --text-color: #111111;
   --subtext-color: #444444;
   --bg-color-dark: #F6F6F6;
   --bg-color: #FFFFFF;
-  --btn-gradient: linear-gradient(to right, #D56B2A, #FF9900);
+  --btn-gradient: linear-gradient(to right, #729472, #D2E6D2);
   --btn-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 
   --main-font: 'Roboto Slab', serif;
