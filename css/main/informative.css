@@ -1,6 +1,17 @@
 .informative {
   padding: 2rem 3rem;
   margin: 0 2rem;
+  position: relative;
+}
+
+.informative::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 90%;
+  height: 2px;
+  background: var(--main-color);
+  margin-top: 1.7rem;
 }
 
 .informative li {
