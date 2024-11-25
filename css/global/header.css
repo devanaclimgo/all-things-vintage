@@ -17,6 +17,11 @@ header {
 
 .header-links a {
   padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+}
+
+.header-links a:hover {
+  background-color: var(--bg-color-dark);
 }
 
 @media (max-width: 505px) {
