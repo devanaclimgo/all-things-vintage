@@ -7,11 +7,13 @@
 .informative::after {
   content: '';
   position: absolute;
-  display: block;
+  display: flex;
   width: 90%;
   height: 2px;
   background: var(--main-color);
   margin-top: 1.7rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .informative li {
