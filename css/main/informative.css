@@ -1,0 +1,9 @@
+.informative {
+  padding: 2rem 3rem;
+  margin: 0 2rem;
+}
+
+.informative li {
+  display: flex;
+  justify-content: space-between;
+}
