@@ -19,7 +19,7 @@ body {
   --bg-color-dark: #F6F6F6;
   --bg-color: #FFFFFF;
   --btn-gradient: linear-gradient(to right, #92A592, #D2E6D2);
-  --btn-gradient-h: (to right, #A2B6A2, #E2F6E2);
+  --btn-gradient-h: linear-gradient(to right, #A2B6A2, #E2F6E2);
   --btn-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 
   --main-font: 'Roboto Slab', serif;
