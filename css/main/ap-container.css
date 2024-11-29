@@ -29,7 +29,7 @@
 .container-list h3 {
   position: relative;
   padding-left: 3rem;
-  grid-column: 1/4;
+  grid-column: 1/-1;
   margin-bottom: 2rem;
 }
 
