@@ -7,8 +7,6 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-
-
 .container-list {
   position: relative;
   margin-top: 3rem;
@@ -30,6 +28,8 @@
 .container-list h3 {
   position: relative;
   padding-left: 3rem;
+  grid-column: 1/4;
+  margin-bottom: 2rem;
 }
 
 .container-list h3 {
