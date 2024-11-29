@@ -1,18 +1,13 @@
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
 }
 
 .container .container-list {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.container .container-list li {
-  grid-template-columns: 3;
-  grid-row: 2/3;
-  justify-content: space-between;
-  margin-left: 5rem;
-}
+
 
 .container-list {
   position: relative;
@@ -20,7 +15,7 @@
 }
 
 .container-list::after {
-  content: '';
+  content: "";
   position: absolute;
   display: flex;
   width: 90%;
@@ -49,10 +44,10 @@
   margin-top: 5rem;
 }
 
-.container-list h3::before{
-  content: '';
+.container-list h3::before {
+  content: "";
   position: absolute;
-  background-image: url('../../img/small-logo.png');
+  background-image: url("../../img/small-logo.png");
   background-size: contain;
   width: 49px;
   height: 49px;
@@ -80,8 +75,6 @@
 @media (max-width: 860px) {
   .container-list {
     flex-direction: column;
-  }
-  .container-list {
     padding-right: 3rem;
   }
   .container-list h3::before {
