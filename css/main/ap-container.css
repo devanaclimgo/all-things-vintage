@@ -67,6 +67,10 @@
   left: -5%;
 }
 
+.container-list li a img {
+  margin-bottom: 1.7rem;
+}
+
 @media (max-width: 1200px) {
   .container-list h3::before {
     width: 35px;
