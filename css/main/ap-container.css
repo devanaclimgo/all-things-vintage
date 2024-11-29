@@ -18,7 +18,7 @@
 .container-list {
   position: relative;
   margin-top: 3rem;
-  margin-left: 3rem;
+  padding-left: 3rem;
 }
 
 .container-list::after {
@@ -29,6 +29,7 @@
   height: 2px;
   background: var(--main-color);
   left: 50%;
+  top: 107%;
   transform: translateX(-50%);
   margin-bottom: 1.7rem;
   margin-top: 1rem;
