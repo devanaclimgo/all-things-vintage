@@ -28,3 +28,9 @@
   color: var(--text-color);
   cursor: pointer;
 }
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
