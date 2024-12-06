@@ -43,3 +43,12 @@
 .footer-about li:first-child {
   padding-top: 0.8rem;
 }
+
+.footer-copy {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  color: var(--subtext-color);
+  font-size: 12px;
+}
