@@ -9,7 +9,8 @@
   padding: 2rem;
 }
 
-.footer-contact h3 {
+.footer-contact h3,
+.footer-about h3 {
   margin-bottom: 1rem;
 }
 
@@ -33,4 +34,12 @@
   display: flex;
   gap: 1rem;
   margin-top: 0.8rem;
+}
+
+.footer-about li {
+  padding-bottom: 0.8rem;
+}
+
+.footer-about li:first-child {
+  padding-top: 0.8rem;
 }
