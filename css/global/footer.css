@@ -55,3 +55,29 @@
   color: var(--subtext-color);
   font-size: 12px;
 }
+
+@media (max-width: 990px) {
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .footer-info {
+    flex-direction: column;
+  }
+  .footer-info ul {
+    justify-content: center;
+  }
+  .footer-copy {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-info,
+  .footer-copy {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
