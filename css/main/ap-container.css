@@ -67,6 +67,14 @@
   left: -5%;
 }
 
+.container-list h5 {
+  font-size: 16px;
+}
+
+.container-list p {
+  font-size: 16px;
+}
+
 .container-list li a img {
   margin-bottom: 1.7rem;
 }
