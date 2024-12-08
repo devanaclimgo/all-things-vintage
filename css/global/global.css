@@ -3,6 +3,7 @@
 @import url('../main/intro.css');
 @import url('../main/informative.css');
 @import url('../main/ap-container.css');
+@import url('../appliances/main-page.css');
 
 * {
   margin: 0;
