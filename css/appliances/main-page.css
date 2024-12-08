@@ -27,3 +27,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.appliances-list ul li {
+  margin-top: .5rem;
+  margin-bottom: 3.5rem;
+}
