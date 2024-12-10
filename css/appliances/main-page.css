@@ -1,5 +1,5 @@
 .appliances-list {
-  margin: 1rem 2rem;
+  margin: 1rem 4rem;
 }
 
 .appliances-list h2 {
@@ -24,11 +24,14 @@
 }
 
 .appliances-list ul {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 3;
+  margin: 0 2rem;
 }
 
 .appliances-list ul li {
   margin-top: .5rem;
+  margin-left: .8rem;
   margin-bottom: 3.5rem;
+  grid-row: 1/-1;
 }
