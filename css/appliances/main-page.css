@@ -25,13 +25,16 @@
 
 .appliances-list ul {
   display: grid;
-  grid-template-columns: 3;
   margin: 0 2rem;
 }
 
 .appliances-list ul li {
   margin-top: .5rem;
-  margin-left: .8rem;
+  margin-left: 1rem;
   margin-bottom: 3.5rem;
   grid-row: 1/-1;
+}
+
+.intro-text h4::before {
+  left: -6%;
 }
