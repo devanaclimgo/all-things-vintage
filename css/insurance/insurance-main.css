@@ -11,6 +11,7 @@
   border: 1px solid var(--main-color);
   border-radius: 4px;
   height: fit-content;
+  position: relative;
 }
 
 .plan-title {
@@ -29,4 +30,23 @@
 .plan-title span {
   font-size: 14px;
   color: var(--subtext-color);
+}
+
+.ins-plan li {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1.4rem;
+  position: relative;
+}
+
+.ins-plan li::before {
+  content: '';
+  display: inline-block;
+  background: url('../../img/correct-icon.svg') no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: -7%;
 }
