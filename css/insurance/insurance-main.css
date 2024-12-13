@@ -13,3 +13,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+.plan-title h3 {
+  font-size: 26px;
+}
+
+.plan-title p {
+  font-weight: 500;
+}
+
+.plan-title span {
+  font-size: 14px;
+  color: var(--subtext-color);
+}
