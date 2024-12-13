@@ -1,4 +1,9 @@
+.insurance-block {
+  display: flex;
+  margin: 0 4rem;
+  gap: 2rem;
+}
+
 .ins-plan {
   background-color: var(--bg-color-dark);
-  margin: 0 4rem;
 }
