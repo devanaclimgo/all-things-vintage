@@ -8,3 +8,8 @@
   background-color: var(--bg-color-dark);
   padding: 1.5rem;
 }
+
+.plan-title {
+  display: flex;
+  justify-content: space-between;
+}
