@@ -7,6 +7,10 @@
 .ins-plan {
   background-color: var(--bg-color-dark);
   padding: 1.5rem;
+  width: 70%;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  height: fit-content;
 }
 
 .plan-title {
