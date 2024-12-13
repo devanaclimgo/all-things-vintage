@@ -48,10 +48,13 @@
     grid-row: auto;
     grid-column: auto;
   }
+  .app-title h4::before {
+    left:  -6%;
+  }
 }
 
 @media (max-width: 700px) {
-  .intro-text h4::before {
+  .app-title h4::before {
     left:  -8%;
   }
   .appliances-list ul {
@@ -60,7 +63,7 @@
 }
 
 @media (max-width: 580px) {
-  .intro-text h4::before {
+  .app-title h4::before {
     left:  -12%;
   }
 }
