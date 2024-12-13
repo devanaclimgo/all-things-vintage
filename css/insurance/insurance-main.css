@@ -50,3 +50,33 @@
   top: 2px;
   left: -7%;
 }
+
+@media (max-width: 930px) {
+  .ins-plan li::before {
+    left: -10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .insurance-block {
+    flex-direction: column;
+  }
+  .ins-plan li::before {
+    left: -7%;
+  }
+}
+
+@media (max-width: 650px) {
+  .ins-plan li::before {
+    left: -10%;
+  }
+}
+
+@media (max-width: 520px) {
+  .ins-plan li::before {
+    left: -13%;
+  }
+  .app-title h4 {
+    font-size: 20px;
+  }
+}
