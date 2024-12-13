@@ -35,8 +35,8 @@
   grid-row: 1/-1;
 }
 
-.intro-text h4::before {
-  left: -6%;
+.app-title h4::before {
+  left: -4%;
 }
 
 @media (max-width: 840px) {
