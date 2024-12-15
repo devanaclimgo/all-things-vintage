@@ -5,4 +5,28 @@ article {
 article h3 {
   font-weight: 400;
   font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+
+article h3::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background-color: var(--main-color);
+  height: 2px;
+  width: 42%;
+  top: 50%;
+  left: -1px;
+}
+
+article h3::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background-color: var(--main-color);
+  height: 2px;
+  width: 40%;
+  top: 50%;
+  left: 58%;
 }
