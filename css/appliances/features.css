@@ -30,3 +30,8 @@ article h3::after {
   top: 50%;
   left: 60%;
 }
+
+.features-container {
+  display: flex;
+  gap: 3rem;
+}
