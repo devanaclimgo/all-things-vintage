@@ -35,4 +35,10 @@ article h3::after {
 .features-container {
   display: flex;
   gap: 3rem;
+  margin-right: 3rem;
+}
+
+.features-img {
+  flex: 0 0 auto;
+  margin-left: auto;
 }
