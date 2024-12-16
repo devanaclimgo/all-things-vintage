@@ -15,7 +15,7 @@ article h3::before {
   display: inline-block;
   background-color: var(--main-color);
   height: 2px;
-  width: 42%;
+  width: 39%;
   top: 50%;
   left: -1px;
 }
@@ -26,7 +26,7 @@ article h3::after {
   display: inline-block;
   background-color: var(--main-color);
   height: 2px;
-  width: 40%;
+  width: 37%;
   top: 50%;
-  left: 58%;
+  left: 60%;
 }
