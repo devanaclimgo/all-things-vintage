@@ -6,6 +6,7 @@
 @import url('../appliances/main-page.css');
 @import url('../appliances/features.css');
 @import url('../insurance/insurance-main.css');
+@import url('../insurance/insurance-opinions.css');
 
 * {
   margin: 0;
