@@ -1,0 +1,6 @@
+.opinions {
+  display: flex;
+  margin-top: 4rem;
+  gap: 2rem;
+  margin-right: 4rem;
+}
