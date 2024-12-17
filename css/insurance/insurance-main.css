@@ -35,7 +35,7 @@
 .ins-plan li {
   margin-bottom: 1rem;
   margin-top: 1rem;
-  margin-left: 1.4rem;
+  margin-left: 2rem;
   position: relative;
 }
 
@@ -48,7 +48,7 @@
   width: 20px;
   height: 20px;
   top: 2px;
-  left: -7%;
+  left: -5%;
 }
 
 @media (max-width: 930px) {
