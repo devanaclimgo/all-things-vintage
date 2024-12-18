@@ -7,6 +7,13 @@
   background-color: #D2E6D2;
 }
 
+.opinions img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
 .opinions-container {
   display: flex;
   flex-direction: column;
@@ -22,4 +29,24 @@ blockquote p {
 .opinions-container span {
   font-size: 19px;
   font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .opinions img {
+    max-height: 520px;
+  }
+}
+
+@media (max-width: 900px) {
+  .opinions {
+    flex-direction: column;
+    text-align: center;
+    padding-right: 0;
+  }
+  .opinions img {
+    max-height: 200px;
+  }
+  .opinions-container {
+    padding: 1.5rem 4rem 2.3rem 4rem;
+  }
 }
