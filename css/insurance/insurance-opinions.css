@@ -12,3 +12,9 @@
   flex-direction: column;
   justify-content: center;
 }
+
+blockquote p {
+  max-width: 60ch;
+  padding-bottom: 0.8rem;
+  font-size: 18px;
+}
