@@ -23,6 +23,12 @@ body {
   font-family: var(--main-font);
 }
 
+main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 :root {
   --main-color: #A2BDAA;
   --second-color: #26547C;
