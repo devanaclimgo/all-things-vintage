@@ -28,6 +28,19 @@
 
 .privacy-container ul li {
   padding-bottom: 5px;
-  padding-left: 10px;
+  padding-left: 20px;
   line-height: 1.4;
+  position: relative;
+}
+
+.privacy-container ul li::before {
+  content: '';
+  width: 5px;
+  background-color: var(--main-color);
+  position: absolute;
+  display: block;
+  height: 5px;
+  top: 9px;
+  left: 8px;
+  border-radius: 50%;
 }
