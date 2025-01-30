@@ -1,5 +1,6 @@
 .privacy-container {
   margin-bottom: 2rem;
+  max-width: 90ch;
 }
 
 .privacy-container h2 {
