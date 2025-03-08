@@ -33,6 +33,12 @@
   margin-left: 1rem;
   margin-bottom: 3.5rem;
   grid-row: 1/-1;
+  border-radius: 4px;
+  padding: 0.8rem;
+}
+
+.appliances-list ul li:hover {
+  border: 1px solid var(--main-color);
 }
 
 .app-title h4::before {
