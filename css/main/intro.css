@@ -1,5 +1,11 @@
-.intro {
+.intro-bg {
   background-color: var(--bg-color-dark);
+  margin-top: 2rem;
+  padding: 0 5rem;
+  width: 100%;
+}
+
+.intro {
   display: flex;
   gap: 1.5rem;
 }
