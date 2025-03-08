@@ -35,6 +35,8 @@
   grid-row: 1/-1;
   border-radius: 4px;
   padding: 0.8rem;
+  display: flex;
+  justify-content: center;
 }
 
 .appliances-list ul li:hover {
